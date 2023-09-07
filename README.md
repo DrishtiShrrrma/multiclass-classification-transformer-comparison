@@ -12,3 +12,6 @@ Highlights:
 3. weight normalization
 4. compared performance of various transformers
 5. 
+
+
+Learning Rate ---> 1e-5 ---> didn't work well
