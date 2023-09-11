@@ -24,4 +24,13 @@ Highlights:
 | roberta-large          | 0.9837   | 0.9837      | 0.9837          | 0.9839             | 0.9837   | 0.9837       | 0.9837          | 0.9832   | 0.9821       | 0.9845          | 281.49s        | 1.74s           |
 
 
-Learning Rate ---> 1e-5 ---> didn't work well
+
+| Model                | Macro F1 Score | Eval Loss | Eval Runtime |
+|----------------------|----------------|-----------|--------------|
+| bert-base-uncased    | 0.9933         | 0.0164    | 650ms        |
+| bert-large-uncased   | 0.9932         | 0.0097    | 1.74s        |
+| distilbert-base      | 0.9932         | 0.0178    | 365ms        |
+| fbert/hate           | 0.9932         | 0.0152    | 634ms        |
+| hateBERT             | 0.9901         | 0.0207    | 637ms        |
+| roberta-large        | 0.9832         | 0.0293    | 1.74s        |
+
